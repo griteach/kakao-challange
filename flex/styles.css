@@ -1,0 +1,36 @@
+body {
+  background-color: tomato;
+}
+
+container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  width: 250px;
+  height: 250px;
+  background-color: RGB(245, 222, 179);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.short {
+  width: 50px;
+  height: 50px;
+  background-color: RGB(0, 128, 128);
+  border: 3px solid white;
+}
+.long {
+  width: 200px;
+  height: 50px;
+  background-color: RGB(0, 128, 128);
+  border: 3px dashed white;
+}

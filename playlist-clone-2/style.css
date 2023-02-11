@@ -24,10 +24,8 @@ body {
   height: 600px;
   background-color: white;
   padding: 25px 15px;
-}
-
-.play-list {
-  background-color: yellow;
+  border-radius: 20px 20px;
+  box-shadow: 0px 2px 20px 5px RGB(0, 0, 0, 0.1);
 }
 
 .now-playing {
@@ -56,7 +54,7 @@ header {
   height: 60px;
   background-color: red;
   border-radius: 50%;
-  box-shadow: 0px 0px 8px 10px RGB(254, 245, 243);
+  box-shadow: 0px 0px 10px 10px RGB(253, 242, 236);
 }
 .img-info > img {
   width: 100%;
@@ -80,4 +78,122 @@ header {
   font-weight: 400;
   color: RGB(181, 181, 181);
   margin-top: 10px;
+}
+.btns {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  width: 90px;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px;
+  font-size: 13px;
+}
+.shuffle {
+  background-color: RGB(34, 34, 34);
+  color: white;
+}
+.likes {
+  box-shadow: 0px 0px 8px 2px RGB(254, 245, 243);
+}
+
+.song-list {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+li {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+.song {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.album-cover {
+  width: 40px;
+  height: 40px;
+}
+.album-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20%;
+}
+.album-detail {
+  width: 130px;
+}
+.album-name {
+  font-size: 10px;
+  font-weight: 400;
+  color: RGB(181, 181, 181);
+}
+.song-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.selected {
+  border-radius: 10px 10px;
+  box-shadow: 0px 0px 8px 5px RGB(254, 245, 243);
+}
+
+.controller {
+  width: 100%;
+  height: 50px;
+  background-color: RGB(34, 34, 34);
+  color: white;
+  border-radius: 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 8px 5px RGB(254, 245, 243);
+}
+.controller-info {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+.controller-singer {
+  font-size: 10px;
+  font-weight: 400;
+  color: RGB(108, 108, 108);
+}
+.controller-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.controller-btn {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
